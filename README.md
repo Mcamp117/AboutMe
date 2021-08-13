@@ -32,4 +32,5 @@ My hobbies include
 ## Persons of Interest
 
 [Stan Lee][1]<br>
+![Stan](
 [Steven Spielberg][2]<br>

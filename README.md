@@ -1,5 +1,11 @@
 # AboutMe
 ---
+## Terms
+
+|Terms|Definition|My Meaning
+|:-|:---:|---:|
+|Butterfly Effect| the phenomenon whereby a minute localized change in a complex system can have large effects elsewhere.|One small change causes different outcomes|
+
 ---
 ## Summary
 

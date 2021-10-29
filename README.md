@@ -14,8 +14,3 @@ My hobbies include
 ## Motto/quotes
 
 *The hardest choices require the strongest wills*
-
-*"I'm Mary Poppins Ya'll"-Yondu*
-
-*"The city is flying. We're fighting an army of robots. And I have a bow and arrow. None of this makes sense"-Clint Barton*
-

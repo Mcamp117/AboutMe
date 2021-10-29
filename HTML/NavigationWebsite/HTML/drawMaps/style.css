@@ -1,0 +1,11 @@
+body {
+    background-image: url("MASTER\ SICTC\ FLOOR\ PLAN.jpg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1280;
+    width: 1600;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+   }

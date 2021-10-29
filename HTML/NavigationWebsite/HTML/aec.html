@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>SICTC Navigation</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header id="logo">
+            </header>
+            <nav>
+                <div class="dropdown">
+                    <button id="myBtn" class="dropbtn"><b>Courses</b></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="SICTCNav.html">Home</a></li>
+                        <a href="amt.html">Advanced Manufacturing Technology</a>
+                        <a href="asfsam.html">Animal Science, Food Science, and Agribusiness Management</a>
+                        <a href="aec.html">Architecture/Engineering Courses</a>
+                        <a href="acrt.html">Automotive Collision Repair Technology</a>
+                        <a href="ast.html">Automotive Service Technology</a>
+                        <a href="bct.html">Building Construction Technology</a>
+                        <a href="cisco.html">Computer Network Technology/CISCO</a>
+                        <a href="cs.html">Computer Science</a>
+                        <a href="ca.html">Culinary Arts</a>
+                        <a href="dst.html">Diesel Service Technology</a>
+                        <a href="electric.html">Electricity Technology</a>
+                        <a href="gcdm.html">Graphic Communications/Digital Media</a>
+                        <a href="hse.html">Health Sciences Education</a>
+                        <a href="hvac.html">HVAC-R and Energy Systems</a>
+                        <a href="pmmt.html">Precision Machine Metalworking Technology</a>
+                        <a href="pslefs.html">Public Safety/Law Enforcement/Fire Science</a>
+                        <a href="rtv.html">Radio/TV Communications</a>
+                        <a href="wt.html">Welding Technology</a>
+                </div>
+                <div class="dropdown">
+                    <button id="myBtn" class="dropbtn"><b>List of Architectrue/Engineer Courses</b></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="SICTCNav.html">Architecture/Engineering Courses</a></li>
+                        <a href="asdee.html">Aerial Systems - Drones<br>(engineering emphasis)</a>
+                        <a href="add.html">Architectural Design and Drafting</a>
+                        <a href="mdd.html">Mechanical Drafting and Design</a>
+                        <a href="pltwcea.html">Project Lead the Way: Civil Engineering & Architecture</a>
+                        <a href="pltwcim.html">Project Lead the Way: Computer Integrated Manufacturing</a>
+                        <a href="pltwde.html">Project Lead the Way: Digital Electronics</a>
+                        <a href="pltwedd.html">Project Lead the Way: Engineering and Design and Development</a>
+                </div>
+                <script>
+                    // Get the button, and when the user clicks on it, execute myFunction
+                    document.getElementById("myBtn").onclick = function() {myFunction()};
+        
+                    /* myFunction toggles between adding and removing the show class, which is used 		to hide and show the dropdown content */
+                    function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+                </script>
+                </nav>
+            <main>
+                <h2>Architecture/Engineering Courses</h2>
+                <h3>COURSE DESCRIPTION:</h3>
+                <p>For detailed information on the courses offered, please use the menu on the left and click on the link to the course 
+                of interest.<br>
+                <br>
+                Depending on a students' experience at their home high school, the Southern Indiana Career & Technical Center offers multiple 
+                pathways for those interested in architecture, engineering, interior design, or design technology.  To help guide students to 
+                the appropriate course for their first year, please use the decision matrix below to help determine what course a student 
+                should apply for during their junior or senior year.
+                </p>
+                <img src="htmlImages/Flow Chart-Model.jpg" alt="AECFlowChart" style="width:700px;height:600px;background-size:100% 100%;
+                background-repeat:repeat-y;align:center;" >
+            </main>
+    </body>
+</html>

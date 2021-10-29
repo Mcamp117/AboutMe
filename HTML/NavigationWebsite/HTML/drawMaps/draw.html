@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TestandHope</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="myCanvas" width="1600" height="1280"></canvas>
+<script>
+var canvas = document.getElementById("myCanvas");
+if (canvas.getContext) 
+{
+    var ctx = canvas.getContext('2d');
+    ctx.beginPath();     // Start a new path.
+    ctx.lineWidth = "3";
+    ctx.strokeStyle = "blue";  // This path is green.
+    ctx.moveTo(390, 450);
+    ctx.lineTo(390, 490);
+    ctx.lineTo(505, 490);
+    ctx.lineTo(500, 525);
+    ctx.lineTo(510, 525);
+    ctx.stroke();
+    ctx.closePath();
+    //Second line
+    /*
+    ctx.beginPath();
+    ctx.strokeStyle = "blue";  // This path is blue.
+    ctx.moveTo(0, 0);
+    ctx.lineTo(1241, 473);
+    ctx.stroke();          
+    ctx.closePath();*/ // Close the current path.
+    //https://www.w3resource.com/html5-canvas/html5-canvas-path.php works cited
+    }
+</script>
+</body> 
+</html>

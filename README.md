@@ -5,7 +5,7 @@ Education
 After High School, I plan on attending USI and gettting a degree in Computer Science
 
 ---
-##Hobbies/Interests
+## Hobbies/Interests
 
 My hobbies include
 
